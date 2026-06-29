@@ -1,0 +1,246 @@
+
+======================================================================
+FILE: SM_Oct2025_p7_raw.txt
+======================================================================
+RAW KRUTIDEV                        | CONVERTED UNICODE
+----------------------------------------------------------------------
+
+RAW: --- Page 7 ---
+OUT: --- च्ंहम ७ ---
+
+RAW: 7
+OUT: ७
+
+RAW: A vDrwcj 2025
+OUT: । अडतूबर २०२५
+
+RAW: MhvkjMhvks lekpkj
+OUT: डीआरडीओ समाचार
+
+RAW: MhvkjMhvks us m|ksxksa dks rhu mUur lkexzh çkS|ksfxfd;k¡ 
+OUT: डीआरडीओ ने उद्योगों को तीन उन्नत सामग्री प्रौद्योगिकियाँ 
+
+RAW: gLrkarfjr dha
+OUT: हस्तांतरित कीं
+
+RAW: gSnjkckn fLFkr j{kk /kkrqdeZ 
+OUT: हैदराबाद स्थित रक्षा धातुकर्म 
+
+RAW: vuqla/kku ç;ksx'kkyk ¼Mh,evkj,y½ 
+OUT: अनुसंधान प्रयोगशाला (डीएमआरएल) 
+
+RAW: us m|ksx Hkkxhnkjksa dks rhu mUur 
+OUT: ने उद्योग भागीदारों को तीन उन्नत 
+
+RAW: lkexzh çkS|ksfxfd;k¡ gLrkarfjr dhA 
+OUT: सामग्री प्रौद्योगिकियाँ हस्तांतरित की। 
+
+RAW: M‚ lehj oh dker] lfpo] MhMh vkj 
+OUT: डॉ समीर वी कामत, सचिव, डीडी आर 
+
+RAW: ,aM Mh ,oa v/;{k] MhvkjMhvks us 30 
+OUT: एंड डी एवं अधयक्ष, डीआरडीओ ने ३० 
+
+RAW: vxLr 2025 dks gSnjkckn esa vk;ksftr 
+OUT: अगस्त २०२५ को हैदराबाद में आयोजित 
+
+RAW: ,d dk;ZØe esa m|ksx Hkkxhnkjksa dks 
+OUT: एक कार्यक्रम में उद्योग भागीदारों को 
+
+RAW: çkS|ksfxdh gLrkarj.k gsrq ykblsaflax 
+OUT: प्रौद्योगिकी हस्तांतरण हेतु लाइसेंसिंग 
+
+RAW: le>kSrs ¼,y,VhvksVh½ ds nLrkost 
+OUT: समझौते (एलएटीओटी) के दस्तावेज 
+
+RAW: lkSaisA gLrkarfjr çkS|ksfxfd;k¡ bl 
+OUT: सौंपे। हस्तांतरित प्रौद्योगिकियाँ इस 
+
+RAW: çdkj gSa%
+OUT: प्रकार हैं:
+
+RAW: ●
+OUT: ●
+
+RAW: ●çeq[k j{kk dk;ZØeksa dks leFkZu 
+OUT: ●प्रमुख रक्षा कार्यक्रमों को समर्थन 
+
+RAW: nsus rFkk felkby ç.kkfy;ksa esa 
+OUT: देने तथा मिसाइल प्रणालियों में 
+
+RAW: vkRefuHkZjrk c<+kus ds fy, mPp 
+OUT: आत्मनिर्भरता बढ़ाने के लिए उच्च 
+
+RAW: xq.koÙkk okys jsMksEl ¼egRoiw.kZ 
+OUT: गुणवत्ता वाले रेडोएस (महत्वपूर्ण 
+
+RAW: felkby lsaljksa ds fy, lqj{kk doj½ 
+OUT: मिसाइल सेंसरों के लिए सुरक्षा कवर) 
+
+RAW: ds mRiknu dks l{ke djus ds fy, 
+OUT: के उत्पादन को सक्षम करने के लिए 
+
+RAW: ch,pbZ,y] txnh'kiqj ds fy, mPp 
+OUT: बीएचईएल, जगदीशपुर के लिए उच्च 
+
+RAW: 'kfä okys jsMksEl dk fofuekZ.kA
+OUT: शक्ति वाले रेडोएस का विनिर्माण।
+
+RAW: ●
+OUT: ●
+
+RAW: ●ts,lih,y] vaxqy dks j{kk vuqç;ksxksa 
+OUT: ●जेएसपीएल, अंगुल को रक्षा अनुप्रयोगों 
+
+RAW: ds fy, DMR&1700 LVhy 'khV 
+OUT: के लिए डडत्-१७०० स्टील शीट 
+
+RAW: vkSj IysVksa dk fofuekZ.k] tks d{k 
+OUT: और प्लेटों का विनिर्माण, जो कक्ष 
+
+RAW: rki ij vfr mPp 'kfä vkSj mPp 
+OUT: ताप पर अति उच्च शक्ति और उच्च 
+
+RAW: ÝSDpj VQusl dk mR—"V la;kstu 
+OUT: Ýैडचर टफनेस का उत्कृष्ट संयोजन 
+
+RAW: çnku djrk gSA
+OUT: प्रदान करता है।
+
+RAW: ●
+OUT: ●
+
+RAW: ●ukSlsuk vuqç;ksxksa ds fy, DMR 
+OUT: ●नौसेना अनुप्रयोगों के लिए डडत् 
+
+RAW: 249A HSLA LVhy IysVsa ch,lih] 
+OUT: २४९। भैस्। स्टील प्लेटें बीएसपी, 
+
+RAW: fHkykbZ] lsy dks nh tk jgh gSa] 
+OUT: भिलाई, सेल को दी जा रही हैं, 
+
+RAW: tks ukSlSfud tgktksa ds fuekZ.k gsrq 
+OUT: जो नौसैनिक जहाजों के निर्माण हेतु 
+
+RAW: dBksj vk;keh] HkkSfrd vkSj /kkrqdeZ 
+OUT: कठोर आयामी, भौतिक और धातुकर्म 
+
+RAW: laca/kh vko';drkvksa dks iwjk djus 
+OUT: संबंधी आवश्यकताओं को पूरा करने 
+
+RAW: okyh ,d etcwr vkSj fo'oluh; 
+OUT: वाली एक मजबूत और विशवसनीय 
+
+RAW: lkexzh çnku djrh gSaA
+OUT: सामग्री प्रदान करती हैं।
+
+RAW: vius lacks/ku esa] MhvkjMhvks 
+OUT: अपने संबोधन में, डीआरडीओ 
+
+RAW: v/;{k us m|ksx&vuqla/kku lk>snkjh 
+OUT: अधयक्ष ने उद्योग-अनुसंधान साझेदारी 
+
+RAW: dks c<+kok nsus vkSj rduhdh uokpkjksa 
+OUT: को बढ़ावा देने और तकनीकी नवाचारों 
+
+RAW: dks vkxs c<+kus ds fy, Mh,evkj,y 
+OUT: को आगे बढ़ाने के लिए डीएमआरएल 
+
+RAW: dh çfrc)rk dh ljkguk dh] ftldk 
+OUT: की प्रतिबद्धता की सराहना की, जिसका 
+
+RAW: Hkfo"; esa dkQh çHkko fn[ksxkA
+OUT: भविष्य में काफी प्रभाव दिखेगा।
+
+RAW: ;g TOT j.kuhfrd vuqç;ksxksa ds 
+OUT: यह टओट रणनीतिक अनुप्रयोगों के 
+
+RAW: fy, Lons'kh lkexzh çkS|ksfxdh esa ,d 
+OUT: लिए स्वदेशी सामग्री प्रौद्योगिकी में एक 
+
+RAW: cM+s lq/kkj dk çfrfuf/kRo djrh gSA 
+OUT: बड़े सुधार का प्रतिनिधित्व करती है। 
+
+RAW: ;s çkS|ksfxfd;k¡ fofo/k vuqç;ksxksa 
+OUT: ये प्रौद्योगिकियाँ विविध अनुप्रयोगों 
+
+RAW: esa QSyh gqbZ gSa] tks Mh,evkj,y dh 
+OUT: में फैली हुई हैं, जो डीएमआरएल की 
+
+RAW: cgq&fo"k;d fo'ks"kKrk vkSj egRoiw.kZ 
+OUT: बहु-विषयक विशेषज्ञता और महत्वपूर्ण 
+
+RAW: m|ksx vko';drkvksa dks iwjk djus dh 
+OUT: उद्योग आवश्यकताओं को पूरा करने की 
+
+RAW: bldh {kerk dks çnf'kZr djrh gSaA
+OUT: इसकी क्षमता को प्रदर्शित करती हैं।
+
+RAW: LFkkfir vkS|ksfxd daifu;ksa ds 
+OUT: स्थापित औद्योगिक कंपनियों के 
+
+RAW: lkFk lk>snkjh ls ;g lqfuf'pr gksxk 
+OUT: साथ साझेदारी से यह सुनिश्चित होगा 
+
+RAW: fd bu uokpkjksa dks rsth ls c<+k;k tk 
+OUT: कि इन नवाचारों को तेजी से बढ़ाया जा 
+
+RAW: lds vkSj okf.kfT;d rFkk j.kuhfrd 
+OUT: सके और वा.िाटियक तथा रणनीतिक 
+
+RAW: mi;ksx ds fy, rSukr fd;k tk ldsA
+OUT: उपयोग के लिए तैनात किया जा सके।
+
+RAW: MhvkjMhvks 
+OUT: डीआरडीओ 
+
+RAW: ds 
+OUT: के 
+
+RAW: lg;ksxkRed 
+OUT: सहयोगात्मक 
+
+RAW: ikfjfLFkfrdh ra= dks vkSj etcwr djrs 
+OUT: पारिस्थितिकी तंत्र को और मजबूत करते 
+
+RAW: gq,] Mh,evkj,y rFkk ukxfjd mì;u 
+OUT: हुए, डीएमआरएल तथा नागरिक उìयन 
+
+RAW: ea=ky; ds foeku nq?kZVuk tk¡p C;wjks 
+OUT: मंत्रालय के विमान दुर्?ाटना जाँच छयूरो 
+
+RAW: ds chp ,d le>kSrk Kkiu ij Hkh 
+OUT: के बीच एक समझौता ज्ञापन पर भी 
+
+RAW: gLrk{kj fd, x,] ftlds rgr C;wjks 
+OUT: हस्ताक्षर किए गए, जिसके तहत छयूरो 
+
+RAW: dh xfrfof/k;ksa esa lg;ksx ds fy, 
+OUT: की गतिविधियों में सहयोग के लिए 
+
+RAW: ç;ksx'kkyk ds vuqHko] lqfo/kkvksa vkSj 
+OUT: प्रयोगशाला के अनुभव, सुविधाओं और 
+
+RAW: {kerkvksa dk mi;ksx fd;k tk,xkA bl 
+OUT: क्षमताओं का उपयोग किया जाएगा। इस 
+
+RAW: dk;ZØe esa egkfuns'kd ¼,u,l,aM,e½] 
+OUT: कार्यक्रम में महानिदेशक (एनएसएंडएम), 
+
+RAW: egkfuns'kd 
+OUT: महानिदेशक 
+
+RAW: ¼vkj,aM,e½] 
+OUT: (आरएंडएम), 
+
+RAW: vkSj 
+OUT: और 
+
+RAW: Mh,evkj,y ds funs'kd mifLFkr FksA
+OUT: डीएमआरएल के निदेशक उपस्थित थे।
+
+RAW: le>kSrk Kkiu 
+OUT: समझौता ज्ञापन 
+
+RAW: 
+OUT: 

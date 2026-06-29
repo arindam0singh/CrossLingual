@@ -1,0 +1,255 @@
+======================================================================
+FILE: SM_Oct2025_p13_raw.txt  [Stage 1 final — all fixes applied]
+======================================================================
+
+RAW: 13
+OUT: १३
+
+RAW: A vDrwcj 2025
+OUT: । अक्तूबर २०२५
+
+RAW: MhvkjMhvks lekpkj
+OUT: डीआरडीओ समाचार
+
+RAW: ,u,lVh,y LFkkiuk fnol lekjksg
+OUT: एनएसटीएल स्थापना दिवस समारोह
+
+RAW: ukSlsuk foKku ,oa çkS|ksfxdh 
+OUT: नौसेना विज्ञान एवं प्रौद्योगिकी 
+
+RAW: ç;ksx'kkyk ¼,u,lVh,y½] fo'kk[kkiÙkue 
+OUT: प्रयोगशाला (एनएसटीएल), विशाखापत्तनम 
+
+RAW: us viuk 56oka LFkkiuk fnol lekjksg 
+OUT: ने अपना ५६वां स्थापना दिवस समारोह 
+
+RAW: euk;kA bl volj ij M‚ lehj oh 
+OUT: मनाया। इस अवसर पर डॉ समीर वी 
+
+RAW: dker] lfpo] MhMh vkj ,aM Mh ,oa 
+OUT: कामत, सचिव, डीडी आर एंड डी एवं 
+
+RAW: v/;{k] MhvkjMhvks eq[; vfrfFk FksA M‚ 
+OUT: अध्यक्ष, डीआरडीओ मुख्य अतिथि थे। डॉ 
+
+RAW: vkj oh gkjkçlkn] fof’k"V oSKkfud ,oa 
+OUT: आर वी हाराप्रसाद, विशिष्ट वैज्ञानिक एवं 
+
+RAW: egkfuns'kd ¼,u,l,aM,e½ lEekfur 
+OUT: महानिदेशक (एनएसएंडएम) सम्मानित 
+
+RAW: vfrfFk rFkk fj;j ,Mfejy vjfoan 
+OUT: अतिथि तथा रियर एडमिरल अरविंद 
+
+RAW: jkoy] lgk;d lkexzh çeq[k ¼M‚d;kMZ 
+OUT: रावल, सहायक सामग्री प्रमुख (डॉकयार्ड 
+
+RAW: ,oa fjfQV½ fof'k"V vfrfFk FksA
+OUT: एवं रिफिट) विशिष्ट अतिथि थे।
+
+RAW: vius Lokxr lacks/ku esa] M‚ 
+OUT: अपने स्वागत संबोधन में, डॉ 
+
+RAW: ih ds iVuk;d] oSKkfud ^,Q^ 
+OUT: पी के पटनायक, वैज्ञानिक 'एफ' 
+
+RAW: ,oa v/;{k] ,yvkjMhlh&2025 us 
+OUT: एवं अध्यक्ष, एलआरडीसी-२०२५ ने 
+
+RAW: ,yvkjMhlh&2025 ds varxZr vk;ksftr 
+OUT: एलआरडीसी-२०२५ के अंतर्गत आयोजित 
+
+RAW: lHkh dk;ZØeksa dk laf{kIr fooj.k fn;k( 
+OUT: सभी कार्यक्रमों का संक्षिप्त विवरण दिया( 
+
+RAW: M‚ ,p ,u nkl] dk;Zdkjh funs'kd ,oa 
+OUT: डॉ एच एन दास, कार्यकारी निदेशक एवं 
+
+RAW: v/;{k] dk;Z lfefr us o"kZ 2024&2025 
+OUT: अध्यक्ष, कार्य समिति ने वर्ष २०२४-२०२५ 
+
+RAW: ds nkSjku dk;Z lfefr }kjk dh xbZ 
+OUT: के दौरान कार्य समिति द्वारा की गई 
+
+RAW: xfrfof/k;ksa dh okf"kZd fjiksVZ çLrqr dhA 
+OUT: गतिविधियों की वार्षिक रिपोर्ट प्रस्तुत की। 
+
+RAW: M‚ vczkge oxhZl] mRd`"V oSKkfud ,oa 
+OUT: डॉ अब्राहम वर्गीस, उत्कृष्ट वैज्ञानिक एवं 
+
+RAW: funs'kd us vius lacks/ku esa o"kZ ds nkSjku 
+OUT: निदेशक ने अपने संबोधन में वर्ष के दौरान 
+
+RAW: ,u,lVh,y dh mYys[kuh; rduhdh 
+OUT: एनएसटीएल की उल्लेखनीय तकनीकी 
+
+RAW: miyfC/k;ksa dk laf{kIr fooj.k fn;kA
+OUT: उपलब्धियों का संक्षिप्त विवरण दिया।
+
+RAW: M‚ lehj oh dker us o#.kkL= ds 
+OUT: डॉ समीर वी कामत ने वरुणास्त्र के 
+
+RAW: fy, cSywu fjdojh flLVe dh VhvksVh 
+OUT: लिए बैलून रिकवरी सिस्टम की टीओटी 
+
+RAW: Hkkjr Mk;usfeDl fyfeVsM ds funs'kd 
+OUT: भारत डायनेमिक्स लिमिटेड के निदेशक 
+
+RAW: ¼mRiknu½ Jh ih oh jktk jke dks 
+OUT: (उत्पादन) श्री पी वी राजा राम को 
+
+RAW: lkSaihA mUgksaus fj;j ,Mfejy jkoy 
+OUT: सौंपी। उन्होंने रियर एडमिरल रावल 
+
+RAW: dks ,u,lVh,y }kjk fodflr gkbfczM 
+OUT: को एनएसटीएल द्वारा विकसित हाइब्रिड 
+
+RAW: thVh&IRSS lkSaikA x.kekU; O;fä;ksa 
+OUT: जीटी-प्त्ैै सौंपा। गणमान्य व्यक्तियों 
+
+RAW: }kjk Lons'kh jMkj Ø‚l&lsD'ku ¼RCS½ 
+OUT: द्वारा स्वदेशी रडार क्रॉस-सेक्शन (त्ब्ै) 
+
+RAW: iwokZuqeku l‚¶Vos;j NIRVANA dk 
+OUT: पूर्वानुमान सॉफ्टवेयर छप्त्ट।छ। का 
+
+RAW: foekspu Hkh fd;k x;kA bl volj 
+OUT: विमोचन भी किया गया। इस अवसर 
+
+RAW: ij] ,u,lVh,y dh x`g fganh if=dk] 
+OUT: पर, एनएसटीएल की गृह हिंदी पत्रिका, 
+
+RAW: eaFku ds 9osa laLdj.k dk Hkh foekspu 
+OUT: मंथन के ९वें संस्करण का भी विमोचन 
+
+RAW: fd;k x;kA
+OUT: किया गया।
+
+RAW: MhvkjMhvks us 1 vDVwcj 2025 
+OUT: डीआरडीओ ने १ अक्टूबर २०२५ 
+
+RAW: dks viuh iqu% fMtkbu dh xbZ 
+OUT: को अपनी पुन: डिजाइन की गई 
+
+RAW: vkf/kdkfjd osclkbV y‚Up dh] ftldk 
+OUT: आधिकारिक वेबसाइट लॉन्च की, जिसका 
+
+RAW: mís'; ,d vf/kd mi;ksxdrkZ&vuqdwy] 
+OUT: उद्देश्य एक अधिक उपयोगकर्ता-अनुकूल, 
+
+RAW: lwpukRed vkSj vkd"kZd fMftVy 
+OUT: सूचनात्मक और आकर्षक डिजिटल 
+
+RAW: IysVQ‚eZ çnku djuk gSA j{kk oSKkfud 
+OUT: प्लेटफॉर्म प्रदान करना है। रक्षा वैज्ञानिक 
+
+RAW: lwpuk ,oa çys[ku dsaæ ¼MslhM‚d½] 
+OUT: सूचना एवं प्रलेखन केंद्र (डेसीडॉक), 
+
+RAW: fnYyh us fMftVy czkaM igpku 
+OUT: दिल्ली ने डिजिटल ब्रांड पहचान 
+
+RAW: fu;ekoyh ¼MhchvkbZ,e 3-0½ ds vuqlkj 
+OUT: नियमावली (डीबीआईएम ३-०) के अनुसार 
+
+RAW: ubZ MhvkjMhvks osclkbV fMtkbu 
+OUT: नई डीआरडीओ वेबसाइट डिजाइन 
+
+RAW: vkSj fodflr dh gSA MhvkjMhvks 
+OUT: और विकसित की है। डीआरडीओ 
+
+RAW: eq[;ky;] fnYyh esa egkfuns'kdksa] 
+OUT: मुख्यालय, दिल्ली में महानिदेशकों, 
+
+RAW: d‚iksZjsV funs'kdksa] vkSj ofj"B oSKkfudksa 
+OUT: कॉर्पोरेट निदेशकों, और वरिष्ठ वैज्ञानिकों 
+
+RAW: dh mifLFkfr esa M‚ lehj oh dker] 
+OUT: की उपस्थिति में डॉ समीर वी कामत, 
+
+RAW: lfpo] MhMh vkj ,aM Mh ,oa v/;{k] 
+OUT: सचिव, डीडी आर एंड डी एवं अध्यक्ष, 
+
+RAW: MhvkjMhvks us ubZ osclkbV y‚Up dhA
+OUT: डीआरडीओ ने नई वेबसाइट लॉन्च की।
+
+RAW: ubZ osclkbV esa ljy usfoxs'ku ds 
+OUT: नई वेबसाइट में सरल नेविगेशन के 
+
+RAW: lkFk mUur baVjQsl] dbZ midj.kksa ds 
+OUT: साथ उन्नत इंटरफेस, कई उपकरणों के 
+
+RAW: fy, mÙkjnk;h fMtkbu vkSj MhvkjMhvks 
+OUT: लिए उत्तरदायी डिजाइन और डीआरडीओ 
+
+RAW: MhvkjMhvks us viuh ubZ osclkbV y‚Up dh
+OUT: डीआरडीओ ने अपनी नई वेबसाइट लॉन्च की
+
+RAW: dh ç;ksx'kkykvksa] çkS|ksfxfd;ksa] çdk'kuksa] 
+OUT: की प्रयोगशालाओं, प्रौद्योगिकियों, प्रकाशनों, 
+
+RAW: vkSj miyfC/k;ksa dks doj djus okyh 
+OUT: और उपलब्धियों को कवर करने वाली 
+
+RAW: le`) lkexzh 'kkfey gSA
+OUT: समृद्ध सामग्री शामिल है।
+
+RAW: blesa 'kks/kdrkZvksa] m|ksx Hkkxhnkjksa 
+OUT: इसमें शोधकर्ताओं, उद्योग भागीदारों 
+
+RAW: vkSj vke turk ds fy, lwpuk rd 
+OUT: और आम जनता के लिए सूचना तक 
+
+RAW: vklku igqap ds fy, baVjSfDVo lqfo/kkvksa 
+OUT: आसान पहुंच के लिए इंटरैक्टिव सुविधाओं 
+
+RAW: dks Hkh ,dh—r fd;k x;k gSA ubZ 
+OUT: को भी एकीकृत किया गया है। नई 
+
+RAW: osclkbV esa ih,evks ls ykbo QhM ls 
+OUT: वेबसाइट में पीएमओ से लाइव फीड से 
+
+RAW: lkexzh dks çlkfjr djus dk çko/kku 
+OUT: सामग्री को प्रसारित करने का प्रावधान 
+
+RAW: Hkh gS vkSj bls ljdkjh fn'kkfunsZ'kksa ds 
+OUT: भी है और इसे सरकारी दिशानिर्देशों के 
+
+RAW: vuqlkj fMtkbu fd;k x;k gSA
+OUT: अनुसार डिजाइन किया गया है।
+
+RAW: bl volj ij cksyrs gq,] 
+OUT: इस अवसर पर बोलते हुए, 
+
+RAW: MhvkjMhvks v/;{k M‚ lehj oh dker 
+OUT: डीआरडीओ अध्यक्ष डॉ समीर वी कामत 
+
+RAW: us tksj nsdj dgk fd ubZ osclkbV 
+OUT: ने जोर देकर कहा कि नई वेबसाइट 
+
+RAW: ikjnf'kZrk] igq¡p] vkSj fMftVy mR—"Vrk 
+OUT: पारदर्शिता, पहुँच, और डिजिटल उत्कृष्टता 
+
+RAW: ds çfr MhvkjMhvks dh çfrc)rk dks 
+OUT: के प्रति डीआरडीओ की प्रतिबद्धता को 
+
+RAW: n'kkZrh gS] ftlls j{kk vuqla/kku ,oa 
+OUT: दर्शाती है, जिससे रक्षा अनुसंधान एवं 
+
+RAW: fodkl igyksa ds ckjs esa tkudkjh 
+OUT: विकास पहलों के बारे में जानकारी 
+
+RAW: vkSj vf/kd lqyHk gksxhA ;g IysVQ‚eZ 
+OUT: और अधिक सुलभ होगी। यह प्लेटफॉर्म 
+
+RAW: f'k{kk txr] m|ksx txr] vkSj ;qok 
+OUT: शिक्षा जगत, उद्योग जगत, और युवा 
+
+RAW: uoçorZdksa ds lkFk lg;ksx ds fy, 
+OUT: नवप्रवर्तकों के साथ सहयोग के लिए 
+
+RAW: ,d lsrq dk dke Hkh djsxkA
+OUT: एक सेतु का काम भी करेगा।
+
+RAW: ?kVukØe 
+OUT: घटनाक्रम 

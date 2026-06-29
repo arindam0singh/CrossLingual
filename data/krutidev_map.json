@@ -1,0 +1,299 @@
+{
+  "_doc": [
+    "KrutiDev-010 → Unicode Devanagari mapping table.",
+    "",
+    "KrutiDev is a Remington-layout font: the font makes ASCII bytes LOOK like",
+    "Devanagari on screen. When a PDF is extracted, you get the raw ASCII bytes.",
+    "This file tells the converter what each byte (or byte sequence) actually means.",
+    "",
+    "VERIFIED entries are confirmed from the known example:",
+    "  'MhvkjMhvks lekpkj'  →  'डीआरडीओ समाचार'",
+    "",
+    "UNVERIFIED entries are derived from Remington Hindi keyboard layout",
+    "documentation and common KrutiDev-010 reference tables. Correct them as",
+    "you extract real text from your PDFs.",
+    "",
+    "HOW THE CONVERTER USES THIS FILE:",
+    "  1. Tries 'conjuncts' first (longest match, checked left-to-right).",
+    "  2. Handles the i-matra reversal (see 'i_matra' section).",
+    "  3. Falls back to 'direct' for remaining single chars.",
+    "",
+    "EDITING TIPS:",
+    "  - Keys are the literal ASCII chars from your extracted text.",
+    "  - Values are Unicode strings (may be multiple codepoints).",
+    "  - Add new conjuncts when you find multi-char sequences that map to a",
+    "    single Devanagari unit (common for standalone vowels and some conjuncts).",
+    "  - The 'verified' boolean is just for your reference; the converter ignores it."
+  ],
+
+  "conjuncts": {
+    "_doc": [
+      "Multi-char ASCII sequences → Unicode. Checked BEFORE single-char substitution.",
+      "IMPORTANT: The converter tries longer keys before shorter keys so that e.g.",
+      "'vks' is matched before 'vk' is matched. Keep this file sorted by length desc",
+      "within each group if you add entries manually.",
+      "",
+      "Standalone vowel forms: in KrutiDev, standalone vowels (आ, ओ, औ etc.) are",
+      "composed from multiple glyph keystrokes that visually merge into one character.",
+      "The PDF extractor sees the raw keystrokes; we must map the sequence to the",
+      "single Unicode codepoint.",
+      "",
+      "Conjunct consonants: some consonant clusters (क्ष, ज्ञ, त्र) have a single",
+      "KrutiDev glyph sequence that must be translated to the Unicode ZWJ/virama form."
+    ],
+    "entries": [
+      {
+        "krutidev": "vkS",
+        "unicode": "औ",
+        "note": "standalone AU vowel (ā + AI matra). UNVERIFIED."
+      },
+      {
+        "krutidev": "vks",
+        "unicode": "ओ",
+        "note": "standalone O vowel. VERIFIED from example: MhvkjMhvks→डीआरडीओ"
+      },
+      {
+        "krutidev": "vk",
+        "unicode": "आ",
+        "note": "standalone AA vowel. VERIFIED from example: vkj→आर"
+      },
+      {
+        "krutidev": "{k",
+        "unicode": "क्ष",
+        "note": "ksha conjunct. VERIFIED from j{kk=रक्षा (p7)."
+      },
+      {
+        "krutidev": "ç",
+        "unicode": "प्र",
+        "note": "pra ligature (प्र, U+00E7 Latin c-cedilla used as KrutiDev glyph). VERIFIED from ç.kkyh=प्रणाली, çkS|ksfxfd;k¡=प्रौद्योगिकियाँ (p7/p10)."
+      },
+      {
+        "krutidev": "[k",
+        "unicode": "ख",
+        "note": "kha (ख). VERIFIED from çeq[k=प्रमुख (p7: [k is a 2-char sequence → single ख)."
+      },
+      {
+        "krutidev": "ks",
+        "unicode": "ो",
+        "note": "o matra (ो). VERIFIED from dks=को (appears throughout p7/p10). k alone=ā, ks together=ो."
+      },
+      {
+        "krutidev": ",s",
+        "unicode": "ऐ",
+        "note": "standalone AI vowel (ऐ). VERIFIED from ,sfrgkfld=ऐतिहासिक (p10). ',' alone=ए, but ',s' together=ऐ."
+      },
+      {
+        "krutidev": "bZ",
+        "unicode": "ई",
+        "note": "standalone II (long i) vowel. UNVERIFIED."
+      },
+      {
+        "krutidev": "kS",
+        "unicode": "ौ",
+        "note": "AU matra (after consonant). UNVERIFIED."
+      },
+      {
+        "krutidev": ".k",
+        "unicode": "ण",
+        "note": "ṇa retroflex (ण). VERIFIED from ç.kkyh=प्रणाली (system), ç{ksi.k=प्रक्षेपण (p7 title)."
+      },
+      {
+        "krutidev": "\"k",
+        "unicode": "ष",
+        "note": "sha-retroflex plain ष (U+0937) when the \" glyph is followed by artifact-k. VERIFIED from fo\"k;d=विषयक, fo'ks\"kKrk=विशेषज्ञता, fo'ks\"krk=विशेषता (p7/p10). When \" appears before a real consonant cluster (Ø,V,B) there is NO artifact-k and the direct \" -> ष् (half-form) handles it correctly. This 2-char conjunct fires first and prevents the artifact-k producing spurious ā matra."
+      },
+      {
+        "krutidev": "'o",
+        "unicode": "श्व",
+        "note": "sha+halant+va cluster (श्व). VERIFIED from fo'ofo|ky;=विश्वविद्यालय (p8: fo=वि, 'o=श्व, fo=वि, |=द्य, k=ā, y=ल, ;=य). Without conjunct '->श, o->व gives शव (no halant). Follows pattern of 'p->श्च, 'y->श्ल."
+      },
+      {
+        "krutidev": "/;",
+        "unicode": "ध्य",
+        "note": "dha+halant+ya cluster (ध्य). VERIFIED from ek/;e=माध्यम (p8: e=म, k=ā, /;=ध्य, e=म → माध्यम). '/' is in artifact_k_chars but artifact suppression only fires when next char is 'k'; here next is ';' so conjunct takes priority at Step 1."
+      },
+      {
+        "krutidev": "f.k",
+        "unicode": "णि",
+        "note": "i-matra on 2-char conjunct ण (f=i-matra, .k=ण). VERIFIED from 'kS{kf.kd=शैक्षणिक (p8). The i-matra while-loop only peeks single chars, so can't handle .k (2-char) as a conjunct host — this 3-char conjunct fires at Step 1 first."
+      },
+      {
+        "krutidev": "'y",
+        "unicode": "श्ल",
+        "note": "sha+halant+la cluster (श्ल). VERIFIED from fo'ys\"k.k=विश्लेषण (p8: fo=वि, 'y=श्ल, s=े, \"k=ष, .k=ण → विश्लेषण). ' alone -> श, y alone -> ल; without conjunct gives शल (no halant)."
+      },
+      {
+        "krutidev": "kW",
+        "unicode": "ॉ",
+        "note": "chandra-O matra (ॉ, composed glyph). VERIFIED from MkW=डॉ (p2/p5: M=ड, kW=ॉ → डॉ for Dr.). Fires before k→ā + W→ध. Alternative single-char encoding '‚'→ॉ (U+201A) also exists in this PDF."
+      },
+      {
+        "krutidev": "'p",
+        "unicode": "श्च",
+        "note": "sha+halant+cha cluster (श्च). VERIFIED from fu'p;=निश्चय, lqfuf'pr=सुनिश्चित (p7). When ' is at current position followed by p, conjunct fires. When f (i-matra) precedes 'p, the i-matra while-loop treats ' as a half-form (श्) and binds ि to cha instead — both paths now produce correct output."
+      },
+      {
+        "krutidev": "';",
+        "unicode": "श्य",
+        "note": "sha+halant+ya cluster (श्य). VERIFIED from ifj–';=परिदृश्य (p10). ' alone -> श (full form), so without this conjunct '; gives शय (wrong). z->्र already provides the virama for श्र naturally; this conjunct is needed because ; ->य carries no virama."
+      },
+      {
+        "krutidev": "v‚",
+        "unicode": "ऑ",
+        "note": "standalone ऑ vowel (U+0911, DEVANAGARI LETTER SHORT A with chandra-O). VERIFIED from v‚Vks-VªSfdax=ऑटो-ट्रैकिंग (p10: v=अ base, ‚=ॉ matra; together form ऑ not अ+ॉ separately). Used in English loanwords. ‚ alone (U+201A) -> ॉ matra on a consonant; v+‚ -> standalone ऑ vowel."
+      },
+      {
+        "krutidev": "æz",
+        "unicode": "द्र",
+        "note": "da+halant+ra cluster absorbing spurious trailing z (द्र). VERIFIED from ÅtZLoh inkFkZ mUur dsaæz=...केंद्र्र (p22: æ fires as द्र via direct, then z adds spurious ्र giving double). This 2-char conjunct fires at Step 1 to consume æ+z together as a single द्र. When æ appears without z, the direct æ->द्र entry still handles it correctly."
+      }
+    ]
+  },
+
+  "i_matra": {
+    "_doc": [
+      "The short 'i' matra (ि, U+093F) is the most complex case in KrutiDev.",
+      "",
+      "In Unicode:  consonant + ि  (e.g., क + ि = कि)",
+      "In KrutiDev: ि glyph appears BEFORE the consonant glyph, because the",
+      "             i-matra's left hook must be drawn before the consonant stroke",
+      "             on a typewriter. So 'fk' in KrutiDev means 'कि' in Unicode.",
+      "",
+      "Reordering rule: whenever one of 'i_matra_chars' is found, consume the",
+      "NEXT character as the consonant, then output: consonant + ि"
+    ],
+    "i_matra_chars": ["f"],
+    "i_matra_unicode": "ि"
+  },
+
+  "direct": {
+    "_doc": [
+      "Single ASCII char → Unicode. Applied after conjuncts and i-matra handling.",
+      "Entries marked VERIFIED are confirmed from the known example or Devanagari",
+      "font documentation. Entries marked UNVERIFIED are best guesses from the",
+      "standard Remington Hindi keyboard layout used by KrutiDev."
+    ],
+    "entries": [
+      {"krutidev": " ", "unicode": " ", "note": "space"},
+      {"krutidev": "\n", "unicode": "\n", "note": "newline"},
+      {"krutidev": "\r", "unicode": "\r", "note": "carriage return"},
+
+      {"krutidev": "0", "unicode": "०", "note": "Devanagari digit 0. UNVERIFIED (may be ASCII 0)."},
+      {"krutidev": "1", "unicode": "१", "note": "Devanagari digit 1. UNVERIFIED."},
+      {"krutidev": "2", "unicode": "२", "note": "Devanagari digit 2. UNVERIFIED."},
+      {"krutidev": "3", "unicode": "३", "note": "Devanagari digit 3. UNVERIFIED."},
+      {"krutidev": "4", "unicode": "४", "note": "Devanagari digit 4. UNVERIFIED."},
+      {"krutidev": "5", "unicode": "५", "note": "Devanagari digit 5. UNVERIFIED."},
+      {"krutidev": "6", "unicode": "६", "note": "Devanagari digit 6. UNVERIFIED."},
+      {"krutidev": "7", "unicode": "७", "note": "Devanagari digit 7. UNVERIFIED."},
+      {"krutidev": "8", "unicode": "८", "note": "Devanagari digit 8. UNVERIFIED."},
+      {"krutidev": "9", "unicode": "९", "note": "Devanagari digit 9. UNVERIFIED."},
+
+      {"krutidev": "!", "unicode": "्", "note": "halant/virama (् U+094D). UNVERIFIED."},
+      {"krutidev": "(", "unicode": "।", "note": "danda / Hindi full stop (। U+0964). VERIFIED from laf{kIr fooj.k fn;k( = ...दिया। (p13). In KrutiDev, '(' key produces the danda glyph. True opening parenthesis is ¼ (U+00BC) — see conjuncts. Note: attribution lines start with '(' in the raw; the converter post-processing restores this to '(' in output (see converter.py)."},
+      {"krutidev": "^", "unicode": "'", "note": "single quote / grade-designation wrapper. VERIFIED from vSKkfud ^,Q^ = वैज्ञानिक 'एफ' (p13: KrutiDev caret wraps grade letters like F, G). Also appears as ^^ for opening double-quote in English titles. Also appears in ^^text (two carets = opening dbl-quote; Tier-3 in English spans)."},
+      {"krutidev": "~", "unicode": "्", "note": "halant/virama (् U+094D). VERIFIED from mn~?kkVu=उद्घाटन (p20: n+~+?k → द्+घ), ln~Hkko=सद्भाव (p15: n+~+H → द्+भ), iV~Vj=पट्टर (p2: V+~+V → ट्ट). Was wrongly ँ (chandrabindu); ¡ (U+00A1) is the VERIFIED chandrabindu."},
+      {"krutidev": "¡", "unicode": "ँ", "note": "chandrabindu (ँ U+0901) — inverted-exclamation char used in this PDF. VERIFIED from çkS|ksfxfd;k¡=प्रौद्योगिकियाँ (p7)."},
+      {"krutidev": "@", "unicode": "/", "note": "forward slash (/). VERIFIED from Lopkfyr@eSU;qvy=स्वचालित/मैन्युअल (p10), jMkj@IACSS=रडार/IACSS (p10). KrutiDev uses @ for the slash glyph. Anusvara is 'a' (lowercase, VERIFIED from gLrkarfjr=हस्तांतरित)."},
+      {"krutidev": "#", "unicode": "रु", "note": "ra+short-u combined glyph (रु). VERIFIED from csaxyw#=बेंगलूरु (p2: c=ब...w=ू, #=रु), :id c#vk=रूपक बरुआ (p2: #=रु → बरुआ). Previously guessed as ः (visarga, UNVERIFIED — now known wrong)."},
+      {"krutidev": "|", "unicode": "द्य", "note": "da+halant+ya conjunct (द्य). VERIFIED from m|ksxksa=उद्योगों, çkS|ksfxfd;k¡=प्रौद्योगिकियाँ (p7)."},
+      {"krutidev": "Z", "unicode": "र्", "note": "reph (र् = ra+halant superscript). VERIFIED from vkRefuHkZjrk=आत्मनिर्भरता, dk;ZØe=कार्यक्रम (p7). NOTE: In KrutiDev, reph is typed AFTER its host consonant; Unicode needs it before — position reordering not yet implemented."},
+
+      {"krutidev": "a", "unicode": "ं", "note": "anusvara (ं U+0902). VERIFIED from gLrkarfjr=हस्तांतरित (p7)."},
+      {"krutidev": "A", "unicode": "।", "note": "danda — Hindi full stop (।). VERIFIED from sentence-final A in p7 (çnku djrk gSA=प्रदान करता है।)."},
+      {"krutidev": "b", "unicode": "इ", "note": "standalone i vowel (इ). VERIFIED from felkby=मिसाइल (p7)."},
+      {"krutidev": "B", "unicode": "ठ", "note": "ṭha retroflex (ठ). VERIFIED from çfr\"Bku=प्रतिष्ठान (p10: institution). H→भ is the correct bha; B was wrongly set to भ."},
+      {"krutidev": "c", "unicode": "ब", "note": "ba (ब). VERIFIED from gSnjkckn=हैदराबाद (p7)."},
+      {"krutidev": "C", "unicode": "ब्", "note": "ba+halant cluster-start (ब्). VERIFIED from miyfC/k=उपलब्धि (p5: C=ब्, /k=ध → ब्धि). N is the correct छ. P→च् handles cha+halant (from mPp=उच्च)."},
+      {"krutidev": "d", "unicode": "क", "note": "ka (क). UNVERIFIED (Remington layout: 'k' matra, 'd' consonant ka)."},
+      {"krutidev": "D", "unicode": "क्", "note": "ka+halant cluster-start (क्). VERIFIED from ÝSDpj=फ्रैक्चर (p7: D=क्, p=च → क्चर) and vDrwcj=अक्तूबर (D=क् → अक्तूबर). Previously wrongly set to ड; M is the verified ड glyph (from yM+dk=लड़का)."},
+      {"krutidev": "e", "unicode": "म", "note": "ma (म). VERIFIED from example: 'lekpkj'→'समाचार'"},
+      {"krutidev": "E", "unicode": "म्", "note": "ma+halant cluster-start (म्). VERIFIED from lEesyu=सम्मेलन (p25: l=स, E=म्, e=म, s=े, y=ल, u=न → सम्मेलन), lEekfur=सम्मानित (p25). Standalone ए is encoded as ',' (VERIFIED from ,oa=एवं). Prior wrong guess: E=ए (UNVERIFIED)."},
+      {"krutidev": "f", "unicode": "ि", "note": "short i matra (ि) — REVERSED in KrutiDev. Handled by i-matra rule; this entry is fallback only."},
+      {"krutidev": "F", "unicode": "थ", "note": "tha (थ). VERIFIED from rFkk=तथा (p7), fLFkr=स्थित."},
+      {"krutidev": "g", "unicode": "ह", "note": "ha (ह). VERIFIED from gSnjkckn=हैदराबाद, gLrkarfjr=हस्तांतरित (p7)."},
+      {"krutidev": "G", "unicode": "घ", "note": "gha (घ). UNVERIFIED."},
+      {"krutidev": "h", "unicode": "ी", "note": "long ī matra (ी). VERIFIED from example: 'Mh'→'डी'"},
+      {"krutidev": "H", "unicode": "भ", "note": "bha (भ). VERIFIED from Hkkxhnkjksa=भागीदारों, vkRefuHkZjrk=आत्मनिर्भरता (p7)."},
+      {"krutidev": "i", "unicode": "प", "note": "pa (प). VERIFIED from ç{ksi.k=प्रक्षेपण (b=standalone इ, i=प consonant)."},
+      {"krutidev": "I", "unicode": "प्", "note": "pa+halant cluster-start (प्). VERIFIED from IysVksa=प्लेटों (p7: I=प्, y=ल, s=े, V=ट, ksa=ों)."},
+      {"krutidev": "j", "unicode": "र", "note": "ra (र). VERIFIED from example: 'lekpkj'→'समाचार'"},
+      {"krutidev": "J", "unicode": "श्र", "note": "sha+halant+ra combined glyph (श्र, Shree cluster). VERIFIED from Jh=श्री, Jherh=श्रीमती, Js.kh=श्रेणी (p2/p5). '>' is the correct झ (VERIFIED from le>kSrk=समझौता). Analogous to ç→प्र, Ý→फ्र."},
+      {"krutidev": "k", "unicode": "ा", "note": "ā matra (ा U+093E). VERIFIED from example: 'k' appears at matra positions in 'lekpkj'→'समाचार'"},
+      {"krutidev": "K", "unicode": "ज्ञ", "note": "jnya conjunct (ज्ञ). VERIFIED from Kkiu=ज्ञापन, le>kSrk Kkiu=समझौता ज्ञापन (p7). NOTE: ख (kha) is now conjunct '[k'."},
+      {"krutidev": "l", "unicode": "स", "note": "sa (स). VERIFIED from example: 'lekpkj'→'समाचार'"},
+      {"krutidev": "L", "unicode": "स्", "note": "sa+halant cluster-start (स्). VERIFIED from gLrkarfjr=हस्तांतरित, LVhy=स्टील (p7)."},
+      {"krutidev": "m", "unicode": "उ", "note": "standalone u vowel (उ). VERIFIED from mPp=उच्च, us m|ksxksa=ने उद्योगों (p7)."},
+      {"krutidev": "M", "unicode": "ड", "note": "ḍa retroflex (ड). VERIFIED from example: 'Mh'→'डी'"},
+      {"krutidev": "n", "unicode": "द", "note": "da dental (द). VERIFIED from gSnjkckn=हैदराबाद (p7)."},
+      {"krutidev": "N", "unicode": "छ", "note": "cha aspirate (छ). VERIFIED from Nk=ksa=छात्रों (p8). '.k' (2-char conjunct) remains the correct encoding for ण retroflex in conjunct clusters. C is the correct ब्."},
+      {"krutidev": "o", "unicode": "व", "note": "va (व). VERIFIED from lfpo=सचिव, Lopkfyr=स्वचालित (p7/p10). NOTE: ो matra is now conjunct 'ks'."},
+      {"krutidev": "O", "unicode": "व्", "note": "va+halant cluster-start (व्). VERIFIED from O;kogkfjd=व्यावहारिक (p8: O=व्, ;=य → व्य). Standalone ओ is already correctly handled by conjunct 'vks'→ओ."},
+      {"krutidev": "p", "unicode": "च", "note": "ca (च). VERIFIED from example: 'lekpkj'→'समाचार' at position 4"},
+      {"krutidev": "P", "unicode": "च्", "note": "cha+halant cluster-start (च्). VERIFIED from mPp=उच्च (p7). NOTE: छ (aspirated cha) stays on 'C'."},
+      {"krutidev": "q", "unicode": "ु", "note": "short u matra (ु). UNVERIFIED."},
+      {"krutidev": "Q", "unicode": "फ", "note": "pha (फ). VERIFIED from VQusl=टफनेस (Toughness, p7). NOTE: was wrongly set to ठ; B is the correct ठ."},
+      {"krutidev": "r", "unicode": "त", "note": "ta dental (त). UNVERIFIED."},
+      {"krutidev": "R", "unicode": "त्", "note": "ta+halant cluster-start (त्). VERIFIED from vkRefuHkZjrk=आत्मनिर्भरता (R is half-ta before ma). NOTE: ृ matra was wrong."},
+      {"krutidev": "s", "unicode": "े", "note": "e matra (े). UNVERIFIED — supported by conjunct: vks→ओ uses s as final component."},
+      {"krutidev": "S", "unicode": "ै", "note": "ai matra (ै). UNVERIFIED."},
+      {"krutidev": "t", "unicode": "ज", "note": "ja (ज). VERIFIED from ftrsUnz=जितेन्द्र (p2), ÅtZLoh=ऊर्जस्वी."},
+      {"krutidev": "T", "unicode": "ज्", "note": "ja+halant cluster-start (ज्). VERIFIED from okf.kfT;d=वाणिज्यिक (p7: T=ज्, ;=य → ज्य), jkT;=राज्य, T;ksRluk=ज्योत्सना. V is the correct ट (VERIFIED from LVhy=स्टील). T was WRONGLY set to ट; both T and V cannot be ट."},
+      {"krutidev": "u", "unicode": "न", "note": "na (न). VERIFIED from us=ने (p7: MhvkjMhvks us→डीआरडीओ ने)."},
+      {"krutidev": "U", "unicode": "न्", "note": "na+halant cluster-start (न्). VERIFIED from mUur=उन्नत (p7). NOTE: ण retroflex stays on 'N'."},
+      {"krutidev": "v", "unicode": "अ", "note": "standalone a vowel (अ) OR base of standalone vowel sequences (vk=आ etc.). PARTIALLY VERIFIED by conjunct analysis."},
+      {"krutidev": "V", "unicode": "ट", "note": "ṭa retroflex (ट). VERIFIED from LVhy=स्टील, VªSfdax=ट्रैकिंग (p7/p10). NOTE: व (va) is now 'o'."},
+      {"krutidev": "w", "unicode": "ू", "note": "long ū matra (ू). UNVERIFIED."},
+      {"krutidev": "W", "unicode": "ध", "note": "dha (ध). NOTE: in conjunct 'kW' the W contributes to ॉ (see conjunct kW→ॉ). Standalone W→ध is provisionally kept; / is the VERIFIED ध glyph."},
+      {"krutidev": "x", "unicode": "ग", "note": "ga (ग). VERIFIED from VªSfdax=ट्रैकिंग, xfr=गति (p10). NOTE: ख (kha) stays on 'K'."},
+      {"krutidev": "X", "unicode": "ग्", "note": "ga+halant cluster-start (ग्). VERIFIED from flXuy=सिग्नल (p5: X=ग्, u=न, y=ल → ग्नल). '{k' is the correct क्ष conjunct (VERIFIED)."},
+      {"krutidev": "y", "unicode": "ल", "note": "la (ल). VERIFIED from jsy=रेल, felkby=मिसाइल, Lopkfyr=स्वचालित (p7/p10). NOTE: य (ya) moves to ';'."},
+      {"krutidev": "Y", "unicode": "ल्", "note": "la+halant cluster-start (ल्). VERIFIED from fnYyh=दिल्ली (p2: f+Y=ल् half-form in i-matra while loop, y=ल, h=ी), ladYi=संकल्प (p15). H is the correct भ (VERIFIED)."},
+      {"krutidev": "z", "unicode": "्र", "note": "halant+ra cluster suffix (्र). VERIFIED from lkexzh=सामग्री (p7: x=ग, z=्र, h=ी gives ग्री)."},
+
+      {"krutidev": "‚", "unicode": "ॉ", "note": "chandra-O matra (ॉ, U+201A→U+0949). VERIFIED from M‚ lehj=डॉ समीर (p7: M=ड, ‚=ॉ gives डॉ for Dr.)."},
+      {"krutidev": "ä", "unicode": "क्त", "note": "kta cluster (क्त, U+00E4). VERIFIED from 'kfä=शक्ति (p7: f+ä gives ि on क्त → क्ति)."},
+      {"krutidev": "–", "unicode": "दृ", "note": "da+vocalic-r-matra combined glyph (दृ = द+ृ, U+2013→U+0926+U+0943). VERIFIED from ifj–';=परिदृश्य (p10). KrutiDev renders दृ as a single ligature glyph at en-dash codepoint."},
+      {"krutidev": "—", "unicode": "कृ", "note": "ka+vocalic-r-matra combined glyph (कृ = क+ृ, U+2014→U+0915+U+0943). VERIFIED from mR—\"V=उत्कृष्ट (p7: R=त्, —=कृ, \"V=ष्ट → उत्कृष्ट), g ,dh—r=एकीकृत (p10)."},
+      {"krutidev": "Å", "unicode": "ऊ", "note": "standalone long-U vowel (ऊ, U+00C5→U+090A). VERIFIED from ÅtkZ=ऊर्जा (p5: Å=ऊ, t=ज, k=ā, Z=reph → ऊर्जा). uPp=उच्च uses m=उ (short), Å is the long form."},
+      {"krutidev": "`", "unicode": "ृ", "note": "vocalic-R matra (ृ, U+0060→U+0943). VERIFIED from Le`fr=स्मृति (p12: L=स्, e=म, `=ृ, f+r=ति → स्मृति), e`.kky=मृणाल (p2: e=म, `=ृ, .k=ण, k=ā, y=ल → मृणाल)."},
+      {"krutidev": "í", "unicode": "द्द", "note": "da+halant+da combined ligature (द्द, U+00ED). VERIFIED from mís';=उद्देश्य (p8: m=उ, í=द्द, s=े, ';=श्य → उद्देश्य). Single glyph encodes the doubled consonant cluster."},
+      {"krutidev": "B", "unicode": "ठ", "note": "tha retroflex (ठ, U+0042→U+0920). VERIFIED from ikBîØe=पाठ्यक्रम (p25/p30: i=प, k=ā, B=ठ, î=्य, Ø=क्र, e=म → पाठ्यक्रम). Uppercase B distinct from lowercase b (=ब)."},
+      {"krutidev": "î", "unicode": "्य", "note": "halant+ya virama-ya suffix (्य, U+00EE→U+094D+U+092F). VERIFIED from BîØe=ठ्यक्रम in ikBîØe=पाठ्यक्रम (p25). î attaches to preceding consonant via halant, like ý-type diacritic glyphs. Gives correct ठ्य, त्य etc. clusters."},
+      {"krutidev": "ã", "unicode": "ह्म", "note": "ha+halant+ma combined glyph (ह्म, U+00E3). VERIFIED from czãkaM=ब्रह्मांड (p3/p15: c=ब, z=्र, ã=ह्म, k=ā, a=ं, M=ड → ब्रह्मांड) and czãksl=ब्रह्मोस (p15: Brahmos missile)."},
+      {"krutidev": "à", "unicode": "ह्न", "note": "ha+halant+na combined glyph (ह्न, U+00E0). VERIFIED from fpfàr=चिह्नित (p15: fp=चि, f+à=ह्नि (i-matra on à=ह्न), r=त → चिह्नित). Single glyph encodes the hn cluster."},
+      {"krutidev": "è", "unicode": "ध", "note": "dha (ध, U+00E8). VERIFIED from vuqlaèkku=अनुसंधान (p2: è=ध). Alternative encoding; '/' is the primary dha glyph (VERIFIED from many corpus words). Both appear in this PDF, possibly from different text spans."},
+      {"krutidev": "æ", "unicode": "द्र", "note": "da+halant+ra combined glyph (द्र, U+00E6). VERIFIED from dsaæ=केंद्र (p15: d=क, s=े, a=ं, æ=द्र → केंद्र). Alternative to dsanz (d=क...n=द+Z=reph); both encodings appear in this PDF."},
+      {"krutidev": "_", "unicode": "ऋ", "note": "standalone vocalic-R vowel (ऋ, U+005F→U+090B). VERIFIED from _rqjkt=ऋतुराज (p15: _=ऋ, r=त, q=ु, j=र, k=ā, t=ज → ऋतुराज). Distinct from ` (U+0060)→ृ which is the vocalic-R MATRA applied to a consonant."},
+      {"krutidev": "¶", "unicode": "फ्", "note": "pha+halant (फ्, half-pha cluster-start, U+00B6). VERIFIED from ¶ys;j=फ्लेयर (p5: ¶=फ्, y=ल, s=े, ;=य, j=र → फ्लेयर). NOT फ्ल — that would double the ल because y→ल follows separately."},
+      {"krutidev": "Ý", "unicode": "फ्र", "note": "pha+halant+ra combined glyph (फ्र, U+00DD). VERIFIED from ÝSDpj=फ्रैक्चर (p7: Ý=फ्र, S=ै, D=क्, p=च, j=र → फ्रैक्चर). Analogous to ç→प्र (U+00E7=pra)."},
+      {"krutidev": "Ø", "unicode": "क्र", "note": "kra conjunct (क्र, U+00D8). VERIFIED from dk;ZØe=कार्यक्रम (p10)."},
+      {"krutidev": "Ù", "unicode": "त्त", "note": "double-ta cluster (त्त, U+00D9). VERIFIED from xq.koÙkk=गुणवत्ता (p10: Ù=त्त gives tat cluster)."},
+      {"krutidev": "ª", "unicode": "्र", "note": "halant+ra suffix for consonant clusters (्र, U+00AA). VERIFIED from VªSfdax=ट्रैकिंग (p10: V=ट, ª=्र gives ट्र)."},
+      {"krutidev": "}", "unicode": "द्व", "note": "da+halant+va conjunct (द्व, U+007D). VERIFIED from }kjk=द्वारा (p10)."},
+      {"krutidev": ",", "unicode": "ए", "note": "standalone e vowel (ए). VERIFIED from fy,=लिए, ,oa=एवं (p7/p10). NOTE: actual commas in abbreviations will be converted too — known limitation."},
+      {"krutidev": ".", "unicode": ".", "note": "period — pass through (some contexts use ।)"},
+      {"krutidev": "-", "unicode": "-", "note": "hyphen — pass through"},
+      {"krutidev": "&", "unicode": "-", "note": "hyphen (-). VERIFIED from cgq&fo\"k;d=बहु-विषयक (p7: multi-disciplinary) and vkdk'k&NG=आकाश-NG (p10). KrutiDev uses & for the hyphen glyph; literal & (ampersand) appears to be absent from this corpus."},
+      {"krutidev": ">", "unicode": "झ", "note": "jha (झ). VERIFIED from le>kSrk=समझौता (p7)."},
+      {"krutidev": "?", "unicode": "घ", "note": "gha (घ). VERIFIED from hj ?kj=हर घर (p15: ?k=घर). NOTE: actual Hindi question marks also use this codepoint; genuine ? will convert to घ (acceptable trade-off for this corpus where ? rarely appears as question mark in running text)."},
+      {"krutidev": "%", "unicode": ":", "note": "colon (:). VERIFIED from çdkj gSa%=प्रकार हैं: and ijh{k.k%=परीक्षण: (p7/p10). KrutiDev uses % for colon."},
+      {"krutidev": "¼", "unicode": "(", "note": "opening paren (U+00BC→U+0028). VERIFIED from ¼Mh,evkj,y½=डीएमआरएल (p7). KrutiDev uses ¼½ as standard parens."},
+      {"krutidev": "½", "unicode": ")", "note": "closing paren (U+00BD→U+0029). VERIFIED from ¼Mh,evkj,y½=डीएमआरएल (p7)."},
+      {"krutidev": "{", "unicode": "क्ष्", "note": "ksha+halant (क्ष्) for pre-ya clusters. VERIFIED from y{;=लक्ष्य (p10). NOTE: 2-char conjunct '{k'→क्ष takes priority when followed by k."},
+      {"krutidev": "=", "unicode": "त्र", "note": "tra cluster (त्र). VERIFIED from ;a==यंत्र (p10: ;=य, a=ं, ==त्र), ra==तंत्र, ea=ky;=मंत्रालय. NOTE: f= (i-matra before =) is handled by the i-matra step naturally (emits त्र+ि); no separate f= conjunct needed. =k conjunct takes priority when k follows."},
+      {"krutidev": "[", "unicode": "ख्", "note": "kha+halant (ख्, half-form) when [ appears without following k. VERIFIED from eq[;=मुख्य (p10: e=म, q=ु, [=ख्, ;=य → मुख्य). Conjunct '[k'→ख fires first when k follows."},
+      {"krutidev": "<", "unicode": "ढ", "note": "dha retroflex (ढ, U+003C→U+0922). VERIFIED from ih<+h=पीढ़ी (p10: i=प, h=ी, <=ढ, +=़, h=ी → पीढ़ी). Always followed by + (nukta) in this corpus."},
+      {"krutidev": "+", "unicode": "़", "note": "nukta (़, U+002B→U+093C DEVANAGARI SIGN NUKTA). VERIFIED from ih<+h=पीढ़ी (p10). Combines with preceding ढ to give ढ़, or with ड to give ड़."},
+      {"krutidev": "(", "unicode": "(", "note": "opening paren — pass through (ASCII open-paren in structural context; KrutiDev open-paren is ¼)"},
+      {"krutidev": ")", "unicode": "द्ध", "note": "da+halant+dha conjunct (द्ध, ASCII close-paren U+0029). VERIFIED from çfrc)rk=प्रतिबद्धता (p7: c=ब, )=द्ध, r=त), ifj'kq)rk=परिशुद्धता (p10). KrutiDev uses ) for द्ध; the actual close-paren is ½ (U+00BD)."},
+      {"krutidev": "]", "unicode": ",", "note": "comma (,). VERIFIED from M‚ lehj oh dker] lfpo]=डॉ समीर वी कामत, सचिव, (p7). KrutiDev uses ] for comma; ASCII comma → ए (standalone e vowel)."},
+      {"krutidev": "'", "unicode": "श", "note": "sha (श). VERIFIED from 'kkyk='ाला in çkS|ksfxfd;k¡=प्रौद्योगिकियाँ context, 'kfä=शक्ति (p7)."},
+      {"krutidev": "\"", "unicode": "ष्", "note": "sha-retroflex+halant cluster-start (ष्, U+0937+U+094D). VERIFIED from fuf\"Ø;=निष्क्रिय, fof'k\"V=विशिष्ट, iqf\"V=पुष्टि (p10)."},
+      {"krutidev": ":", "unicode": "रू", "note": "ra+long-u (रू). VERIFIED from :i ls=रूप से (p10: Lopkfyr :i=स्वचालित रूप)."},
+      {"krutidev": ";", "unicode": "य", "note": "ya (य). VERIFIED from ;g=यह (p7) and ;ksxnku=योगदान patterns. y key moved to ल."},
+      {"krutidev": "/", "unicode": "ध", "note": "dha (ध). VERIFIED from /kkrqdeZ=धातुकर्म (Hyderabad Defense Metallurgy Research Lab, p7)."},
+      {"krutidev": "\\", "unicode": "\\", "note": "backslash — pass through"}
+    ]
+  }
+}

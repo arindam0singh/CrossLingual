@@ -1,0 +1,183 @@
+======================================================================
+FILE: SM_Oct2025_p10_raw.txt  [generated after all fixes]
+======================================================================
+
+RAW: 10
+OUT: १०
+
+RAW: A vDrwcj 2025
+OUT: । अक्तूबर २०२५
+
+RAW: MhvkjMhvks lekpkj
+OUT: डीआरडीओ समाचार
+
+RAW:            
+OUT:            
+
+RAW: EOTS dks fdlh Hkh gfFk;kj ç.kkyh ds BCP@CU@
+OUT: म्व्ज्ै को किसी भी हथियार प्रणाली के ठब्च्/ब्न्/
+
+RAW: CCU@jMkj ij yxk;k tk ldrk gS vkSj ;g ,dh—r 
+OUT: ब्ब्न्/रडार पर लगाया जा सकता है और यह एकीकृत 
+
+RAW: eksM esa jMkj ;k fdlh vU; ckgjh lzksr ds lkFk dke 
+OUT: मोड में रडार या किसी अन्य बाहरी स्रोत के साथ काम 
+
+RAW: djrk gSA jMkj ls ;k eSU;qvy [kkst }kjk çkjafHkd y{; 
+OUT: करता है। रडार से या मैन्युअल खोज द्वारा प्रारंभिक लक्ष्य 
+
+RAW: ladsr çkIr djus ds ckn] EOTS y{; çkfIr ds fy, vius 
+OUT: संकेत प्राप्त करने के बाद, म्व्ज्ै लक्ष्य प्राप्ति के लिए अपने 
+
+RAW: LOS dks fufnZ"V fLFkfr dh vksj mUeq[k djrk gSA EOTS 
+OUT: स्व्ै को निर्दिष्ट स्थिति की ओर उन्मुख करता है। म्व्ज्ै 
+
+RAW: Lopkfyr :i ls y{; dk irk yxkrk gS vkSj mls y‚d 
+OUT: स्वचालित रूप से लक्ष्य का पता लगाता है और उसे लॉक 
+
+RAW: djrk gS rFkk v‚Vks&VªSfdax 'kq: djrk gSA EOTS felkby 
+OUT: करता है तथा ऑटो-ट्रैकिंग शुरू करता है। म्व्ज्ै मिसाइल 
+
+RAW: ekxZn'kZu ç.kkyh ds lkFk laxr gS vkSj ,d egRoiw.kZ 
+OUT: मार्गदर्शन प्रणाली के साथ संगत है और एक महत्वपूर्ण 
+
+RAW: fuf"Ø; ifj'kq)rk ekxZn'kZu bdkbZ cu x;k gSA EOTS 
+OUT: निष्क्रिय परिशुद्धता मार्गदर्शन इकाई बन गया है। म्व्ज्ै 
+
+RAW: jMkj ls çkIr y{; dh iqf"V esa Hkh enn dj ldrk gSA 
+OUT: रडार से प्राप्त लक्ष्य की पुष्टि में भी मदद कर सकता है। 
+
+RAW: SMRSAM ç.kkyh dk ,d fof'k"V ifjpkyu ifj–'; uhps 
+OUT: ैडत्ै।ड प्रणाली का एक विशिष्ट परिचालन परिदृश्य नीचे 
+
+RAW: fn[kk;k x;k gSA
+OUT: दिखाया गया है।
+
+RAW: (jke lju] ;a= vuqla/kku ,oa fodkl çfr"Bku ¼vkbZvkjMhbZ½] nsgjknwu)
+OUT: (राम सरन, यंत्र अनुसंधान एवं विकास प्रतिष्ठान (आईआरडीई), देहरादून)
+
+RAW: Vkbe esa ekxZn'kZuA EOTS dk mi;ksx djds felkby 
+OUT: टाइम में मार्गदर्शन। म्व्ज्ै का उपयोग करके मिसाइल 
+
+RAW: ekxZn'kZu gsrq bl ,sfrgkfld igyh mM+ku esa] felkby us 
+OUT: मार्गदर्शन हेतु इस ऐतिहासिक पहली उड़ान में, मिसाइल ने 
+
+RAW: twu 2025 esa pkanhiqj rV ds ikl y{; ij lQyrkiwoZd 
+OUT: जून २०२५ में चांदीपुर तट के पास लक्ष्य पर सफलतापूर्वक 
+
+RAW: lh/kk çgkj fd;kA EOTS fe'ku ds fy, mPp xfr y{; 
+OUT: सीधा प्रहार किया। म्व्ज्ै मिशन के लिए उच्च गति लक्ष्य 
+
+RAW: dh okLrfod le; esa Lopkfyr VªSfdax vkSj felkby 
+OUT: की वास्तविक समय में स्वचालित ट्रैकिंग और मिसाइल 
+
+RAW: ekxZn'kZu ds ifj.kke uhps çLrqr fd, x, gSaA yM+kdw 
+OUT: मार्गदर्शन के परिणाम नीचे प्रस्तुत किए गए हैं। लड़ाकू 
+
+RAW: foeku] Banshee] gsyhd‚IVj vkfn tSls fofHkUu çdkj ds 
+OUT: विमान, ठंदेीमम, हेलीकॉप्टर आदि जैसे विभिन्न प्रकार के 
+
+RAW: y{;ksa ds fy, EOTS }kjk Lopkfyr VªSfdax çn'kZu Hkh uhps 
+OUT: लक्ष्यों के लिए म्व्ज्ै द्वारा स्वचालित ट्रैकिंग प्रदर्शन भी नीचे 
+
+RAW: fn[kk;k x;k gSA
+OUT: दिखाया गया है।
+
+RAW: EOTS dh eq[; fo'ks"krk,¡
+OUT: म्व्ज्ै की मुख्य विशेषताएँ
+
+RAW: ●
+OUT: ●
+
+RAW: ●iSuksjfed 2&v{k fLFkjh—r ftEcy ç.kkyh
+OUT: ●पैनोरमिक २-अक्ष स्थिरीकृत जिम्बल प्रणाली
+
+RAW: ●
+OUT: ●
+
+RAW: ●fnu vkSj jkr lapkyu
+OUT: ●दिन और रात संचालन
+
+RAW: ●
+OUT: ●
+
+RAW: ●3&D MsVk tujs'ku
+OUT: ●३-क् डेटा जनरेशन
+
+RAW: ●
+OUT: ●
+
+RAW: ●45 fdeh rd dh VªSfdax jsat ¼yM+kdw foeku vkSj 
+OUT: ●४५ किमी तक की ट्रैकिंग रेंज (लड़ाकू विमान और 
+
+RAW: ,vkj,e½
+OUT: एआरएम)
+
+RAW: ●
+OUT: ●
+
+RAW: ●Lopkfyr y{; çkfIr vkSj VªSfdax
+OUT: ●स्वचालित लक्ष्य प्राप्ति और ट्रैकिंग
+
+RAW: ●
+OUT: ●
+
+RAW: ●ok;q&j{kk ds fy, Lopkfyr@eSU;qvy fuxjkuh
+OUT: ●वायु-रक्षा के लिए स्वचालित/मैन्युअल निगरानी
+
+RAW: ●
+OUT: ●
+
+RAW: ●jMkj@IACSS usVodZ vkfn tSlh cká ç.kkfy;ksa ls 
+OUT: ●रडार/प्।ब्ैै नेटवर्क आदि जैसी बाá प्रणालियों से 
+
+RAW: y{; çkfIrA
+OUT: लक्ष्य प्राप्ति।
+
+RAW: ●
+OUT: ●
+
+RAW: ●felkby ekxZn'kZu ç.kkyh ds lkFk laxr
+OUT: ●मिसाइल मार्गदर्शन प्रणाली के साथ संगत
+
+RAW: gkfy;k lQyrk,¡ vkSj miyfC/k;k¡
+OUT: हालिया सफलताएँ और उपलब्धियाँ
+
+RAW: vkdk'k&NG ¼EOTS fe'ku½ ds mi;ksxdrkZ ijh{k.k% 
+OUT: आकाश-छघ (म्व्ज्ै मिशन) के उपयोगकर्ता परीक्षण: 
+
+RAW: EOTS dk mi;ksx djds vkdk'k&NG felkby dk mPp 
+OUT: म्व्ज्ै का उपयोग करके आकाश-छघ मिसाइल का उच्च 
+
+RAW: xfr ifjpkyu y{; ¼Banshee½ ij utj j[kuk vkSj fj;y 
+OUT: गति परिचालन लक्ष्य (ठंदेीमम) पर नजर रखना और रियल 
+
+RAW: fu"d"kZ
+OUT: निष्कर्ष
+
+RAW: EOTS dk mi;ksx SMRSAM ç.kkfy;ksa esa fuxjkuh] 
+OUT: म्व्ज्ै का उपयोग ैडत्ै।ड प्रणालियों में निगरानी, 
+
+RAW: Vksgh vkSj y{;ksa ij utj j[kus ds fy, fd;k tkrk jgk 
+OUT: टोही और लक्ष्यों पर नजर रखने के लिए किया जाता रहा 
+
+RAW: gSA vkbZvkjMhbZ ds ubZ ih<+h ds EOTS] jMkj dh iwjd 
+OUT: है। आईआरडीई के नई पीढ़ी के म्व्ज्ै, रडार की पूरक 
+
+RAW: Hkwfedk fuHkk ldrs gSa vkSj xqIr :i ls fuf"Ø; fuxjkuh] 
+OUT: भूमिका निभा सकते हैं और गुप्त रूप से निष्क्रिय निगरानी, 
+
+RAW: irk yxkus] VªSfdax] vkSj lVhd felkby ekxZn'kZu {kerk 
+OUT: पता लगाने, ट्रैकिंग, और सटीक मिसाइल मार्गदर्शन क्षमता 
+
+RAW: çnku djds blds çn'kZu dks csgrj cuk ldrs gSaA
+OUT: प्रदान करके इसके प्रदर्शन को बेहतर बना सकते हैं।
+
+RAW: vkdk'k&NG mi;ksxdrkZ ijh{k.k ¼EOTS fe'ku½ & EOTS dk mi;ksx djds felkby 
+OUT: आकाश-छघ उपयोगकर्ता परीक्षण (म्व्ज्ै मिशन) - म्व्ज्ै का उपयोग करके मिसाइल 
+
+RAW: ekxZn'kZu vkSj y{; fu/kkZj.k
+OUT: मार्गदर्शन और लक्ष्य निर्धारण
+
+RAW: fo'ks"k ys[k
+OUT: विशेष लेख
