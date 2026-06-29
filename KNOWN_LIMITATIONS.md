@@ -29,6 +29,7 @@ were Hindi, producing garbage output.
 | `RCS` | `त्ब्ै` | `RCS` | Radar Cross Section abbreviation (p13) |
 | `NIRVANA` | `छप्त्ट।छ।` | `NIRVANA` | Software tool name: N=छ, I=प्, R=त्, V=ट, A=।, N=छ, A=। (p13) |
 | `3-D` | `३-क्` | `3-D` | Three-dimensional; D(U+0044) maps to क् (p10) |
+| `POSH` | `च्व्ैभ` | `POSH` | Prevention of Sexual Harassment Act; P=च्, O=व्, S=ै, H=भ (p19) |
 
 **Solvable without ML via font-aware extraction**: Span-level inspection of this PDF
 (via `page.get_text("dict")`) reveals that every English span is set in

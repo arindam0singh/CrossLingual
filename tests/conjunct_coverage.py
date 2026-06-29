@@ -37,6 +37,7 @@ CASES = [
     ("ln~Hkko",       "सद्भाव",        "~→· — goodwill"),
     ("iV~Vj",         "पट्टर",         "~→· — surname Pattar"),
     ("mM~M;u",        "उड्डयन",        "ड्ड via ~ — aviation"),
+    ("m\xec;u",       "उड्डयन",        "ì (U+00EC) preformed ड्ड ligature — p7 variant"),
 
     # --- æz artifact fix ---
     ("dsaæ",          "केंद्र",        "द्र — no z artifact"),
@@ -89,6 +90,17 @@ CASES = [
     ("fnYyh",         "दिल्ली",        "Y=ल्"),
     ("fo'ofo|ky;",    "विश्वविद्यालय", "श्व+द्य (full word)"),
     ("v/;;u",         "अध्ययन",        "ध्य — study (;; doubled)"),
+
+    # --- F; -> थ्य conjunct (स्वास्थ्य) ---
+    ("LokLF; ds",     "स्वास्थ्य के",   "F;=थ्य — स्वास्थ्य (p19 actual encoding: F directly before ;)"),
+
+    # --- grade-quote closing * -> ' ---
+    ("oSKkfud ^th*",  "वैज्ञानिक 'जी'", "* → ' closing grade-quote (p19)"),
+    ("oSKkfud ^,Q^",  "वैज्ञानिक 'एफ'", "^ ^ grade-quote still works (p13)"),
+
+    # --- danda (। from ASCII '(') ---
+    ("fn;k(",             "दिया।",           "( at end → danda"),
+    ("(jke lju] ;a=",    "(राम सरन, यंत्र", "( at line-start → attribution bracket restored"),
 
     # --- i-matra + ्र suffix ordering (fcz fix) ---
     ("gkbfczM",       "हाइब्रिड",     "fcz — i-matra before ब्र cluster (Hybrid)"),

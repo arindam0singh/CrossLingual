@@ -1,0 +1,315 @@
+======================================================================
+FILE: SM_Oct2025_p19_raw.txt
+======================================================================
+RAW KRUTIDEV                        | CONVERTED UNICODE
+----------------------------------------------------------------------
+
+RAW: 19
+OUT: १९
+
+RAW: A vDrwcj 2025
+OUT: । अक्तूबर २०२५
+
+RAW: MhvkjMhvks lekpkj
+OUT: डीआरडीओ समाचार
+
+RAW: vkbZlhlh dk;Z'kkyk vkSj POSH dk;ZØe
+OUT: आईसीसी कार्यशाला और च्व्ैभ कार्यक्रम
+
+RAW: Mh,y] tks/kiqj 
+OUT: डीएल, जोधपुर 
+
+RAW: j{kk ç;ksx'kkyk tks/kiqj ¼Mh,yts½ 
+OUT: रक्षा प्रयोगशाला जोधपुर (डीएलजे) 
+
+RAW: dh vkarfjd f'kdk;r lfefr ¼vkbZlhlh½ 
+OUT: की आंतरिक शिकायत समिति (आईसीसी) 
+
+RAW: us vxLr 2025 esa ;kSu mRihM+u fuokj.k 
+OUT: ने अगस्त २०२५ में यौन उत्पीड़न निवारण 
+
+RAW: ¼POSH½ vf/kfu;e fo"k; ij ,d iksLVj 
+OUT: (च्व्ैभ) अधिनियम विषय पर एक पोस्टर 
+
+RAW: vkSj Lyksxu çfr;ksfxrk dk vk;kstu 
+OUT: और स्लोगन प्रतियोगिता का आयोजन 
+
+RAW: fd;kA çfr;ksfxrkvksa dk mís'; 
+OUT: किया। प्रतियोगिताओं का उद्देश्य 
+
+RAW: POSH vf/kfu;e ds çko/kkuksa ds ckjs 
+OUT: च्व्ैभ अधिनियम के प्रावधानों के बारे 
+
+RAW: esa tkx:drk QSykuk vkSj deZpkfj;ksa 
+OUT: में जागरूकता फैलाना और कर्मचारियों 
+
+RAW: esa jpukRed vfHkO;fä dks çksRlkfgr 
+OUT: में रचनात्मक अभिव्यक्ति को प्रोत्साहित 
+
+RAW: djuk FkkA çfrHkkfx;ksa us çHkko'kkyh 
+OUT: करना था। प्रतिभागियों ने प्रभावशाली 
+
+RAW: iksLVjksa vkSj ukjksa ds ek/;e ls vius 
+OUT: पोस्टरों और नारों के माध्यम से अपने 
+
+RAW: fopkjksa dks lfØ; :i ls çnf'kZr 
+OUT: विचारों को सक्रिय रूप से प्रदर्शित 
+
+RAW: fd;k] ftlesa lqjf{kr] lEekutud 
+OUT: किया, जिसमें सुरक्षित, सम्मानजनक 
+
+RAW: vkSj ySafxd&laosnu'khy dk;ZLFkyksa ds 
+OUT: और लैंगिक-संवेदनशील कार्यस्थलों के 
+
+RAW: egRo ij çdk'k Mkyk x;kA Mh,yts 
+OUT: महत्व पर प्रकाश डाला गया। डीएलजे 
+
+RAW: funs'kd us çfrHkkfx;ksa ds ç;klksa dh 
+OUT: निदेशक ने प्रतिभागियों के प्रयासों की 
+
+RAW: ljkguk dh vkSj fotsrkvksa dks iqjLdkj 
+OUT: सराहना की और विजेताओं को पुरस्कार 
+
+RAW: çnku fd,A
+OUT: प्रदान किए।
+
+RAW: vk;ksftr dh xbZA LFkk;h vkSj vuqca/k 
+OUT: आयोजित की गई। स्थायी और अनुबंध 
+
+RAW: deZpkfj;ksa lfgr lHkh deZpkfj;ksa 
+OUT: कर्मचारियों सहित सभी कर्मचारियों 
+
+RAW: us mRlkgiwoZd Hkkx fy;kA var esa] 
+OUT: ने उत्साहपूर्वक भाग लिया। अंत में, 
+
+RAW: Mh,e,lvkjMhbZ ds mRd`"V oSKkfud 
+OUT: डीएमएसआरडीई के उत्कृष्ट वैज्ञानिक 
+
+RAW: ,oa funs'kd M‚ fdaxlqd eq[kksik/;k; 
+OUT: एवं निदेशक डॉ किंगसुक मुखोपाध्याय 
+
+RAW: }kjk iksLVj vkSj Lyksxu çfr;ksfxrk 
+OUT: द्वारा पोस्टर और स्लोगन प्रतियोगिता 
+
+RAW: ds fotsrkvksa dks iqjLdkj forfjr 
+OUT: के विजेताओं को पुरस्कार वितरित 
+
+RAW: fd, x,A bl dk;ZØe dk vk;kstu 
+OUT: किए गए। इस कार्यक्रम का आयोजन 
+
+RAW: M‚ T;ksfr JhokLro] oSKkfud ^th* 
+OUT: डॉ ज्योति श्रीवास्तव, वैज्ञानिक 'जी' 
+
+RAW: ,oa ihBklhu vf/kdkjh vkbZlhlh] 
+OUT: एवं पीठासीन अधिकारी आईसीसी, 
+
+RAW: Mh,e,lvkjMhbZ }kjk fd;k x;kA 
+OUT: डीएमएसआरडीई द्वारा किया गया। 
+
+RAW: ,l,Qlh] txnyiqj
+OUT: एसएफसी, जगदलपुर
+
+RAW: ,l,Qlh] txnyiqj us 1 vxLr 
+OUT: एसएफसी, जगदलपुर ने १ अगस्त 
+
+RAW: 2025 dks ,d fnolh; vkbZlhlh 
+OUT: २०२५ को एक दिवसीय आईसीसी 
+
+RAW: Mh,e,lvkjMhbZ] dkuiqj
+OUT: डीएमएसआरडीई, कानपुर
+
+RAW: j{kk lkexzh ,oa HkaMkj vuqla/kku 
+OUT: रक्षा सामग्री एवं भंडार अनुसंधान 
+
+RAW: vkSj fodkl LFkkiuk ¼Mh,e,lvkjMhbZ½] 
+OUT: और विकास स्थापना (डीएमएसआरडीई), 
+
+RAW: dkuiqj esa 12 vxLr 2025 dks ,d 
+OUT: कानपुर में १२ अगस्त २०२५ को एक 
+
+RAW: iksLVj&esfdax vkSj Lyksxu&ys[ku 
+OUT: पोस्टर-मेकिंग और स्लोगन-लेखन 
+
+RAW: çfr;ksfxrk vk;ksftr dh xbZA 
+OUT: प्रतियोगिता आयोजित की गई। 
+
+RAW: çfr;ksfxrk dk ,dek= mís'; LFkkiuk 
+OUT: प्रतियोगिता का एकमात्र उद्देश्य स्थापना 
+
+RAW: ds lHkh deZpkfj;ksa esa ^^dk;ZLFky ij 
+OUT: के सभी कर्मचारियों में ''कार्यस्थल पर 
+
+RAW: efgykvksa dk ;kSu mRihM+u ¼jksdFkke] 
+OUT: महिलाओं का यौन उत्पीड़न (रोकथाम, 
+
+RAW: fu"ks/k vkSj fuokj.k½ vf/kfu;e]^^ ;k 
+OUT: निषेध और निवारण) अधिनियम,'' या 
+
+RAW: POSH vf/kfu;e] 2013 ds ckjs esa 
+OUT: च्व्ैभ अधिनियम, २०१३ के बारे में 
+
+RAW: tkx:drk vkSj laosnu'khyrk iSnk 
+OUT: जागरूकता और संवेदनशीलता पैदा 
+
+RAW: djuk FkkA vf/kfu;e ds lHkh çko/kkuksa 
+OUT: करना था। अधिनियम के सभी प्रावधानों 
+
+RAW: dk vuqikyu lqfuf'pr djus ds fy, 
+OUT: का अनुपालन सुनिश्चित करने के लिए 
+
+RAW: fganh vkSj vaxzsth nksuksa esa çfr;ksfxrk 
+OUT: हिंदी और अंग्रेजी दोनों में प्रतियोगिता 
+
+RAW: bZlk ] fnYyh
+OUT: ईसा , दिल्ली
+
+RAW: fnYyh fLFkr i)fr v/;;u ,oa 
+OUT: दिल्ली स्थित पद्धति अध्ययन एवं 
+
+RAW: fo'ys"k.k laLFkku ¼bZlk½ us POSH 
+OUT: विश्लेषण संस्थान (ईसा) ने च्व्ैभ 
+
+RAW: vf/kfu;e ,oa ySafxd laosnu'khyrk 
+OUT: अधिनियम एवं लैंगिक संवेदनशीलता 
+
+RAW: ij ,d O;k[;ku dk vk;kstu fd;kA 
+OUT: पर एक व्याख्यान का आयोजन किया। 
+
+RAW: lgk;d funs'kd ¼jktHkk"kk½ Jherh 
+OUT: सहायक निदेशक (राजभाषा) श्रीमती 
+
+RAW: vYdk Bkdqj us 14 vxLr 2025 
+OUT: अल्का ठाकुर ने १४ अगस्त २०२५ 
+
+RAW: dks POSH vf/kfu;e ds ek/;e ls 
+OUT: को च्व्ैभ अधिनियम के माध्यम से 
+
+RAW: ^^dk;ZLFky ij lqjf{kr okrkoj.k dk 
+OUT: ''कार्यस्थल पर सुरक्षित वातावरण का 
+
+RAW: fuekZ.k^^ fo"k; ij O;k[;ku fn;kA 
+OUT: निर्माण'' विषय पर व्याख्यान दिया। 
+
+RAW: iksLVj vkSj Lyksxu çfr;ksfxrk,¡ Hkh 
+OUT: पोस्टर और स्लोगन प्रतियोगिताएँ भी 
+
+RAW: vk;ksftr dh xbZaA dk;ZØe ds nkSjku 
+OUT: आयोजित की गईं। कार्यक्रम के दौरान 
+
+RAW: çfr;ksfxrkvksa ds fotsrkvksa dks lEekfur 
+OUT: प्रतियोगिताओं के विजेताओं को सम्मानित 
+
+RAW: fd;k x;kA
+OUT: किया गया।
+
+RAW: ?kVukØe 
+OUT: घटनाक्रम 
+
+RAW: dk;Z'kkyk dk vk;kstu fd;kA dk;Z'kkyk 
+OUT: कार्यशाला का आयोजन किया। कार्यशाला 
+
+RAW: dk fo"k; ^^efgyk l'kfädj.k vkSj 
+OUT: का विषय ''महिला सशक्तिकरण और 
+
+RAW: dk;Z&thou larqyu^^ FkkA ,l,Qlh dh 
+OUT: कार्य-जीवन संतुलन'' था। एसएफसी की 
+
+RAW: lHkh efgyk deZpkfj;ksa us dk;Z'kkyk esa 
+OUT: सभी महिला कर्मचारियों ने कार्यशाला में 
+
+RAW: Hkkx fy;kA vkbZlhlh dh v/;{k Jherh 
+OUT: भाग लिया। आईसीसी की अध्यक्ष श्रीमती 
+
+RAW: ,l ladjh] oSKkfud ^th^ ,oa ifj;kstuk 
+OUT: एस संकरी, वैज्ञानिक 'जी' एवं परियोजना 
+
+RAW: funs'kd ,5 ¼lh½ us dk;Z&thou larqyu 
+OUT: निदेशक ए५ (सी) ने कार्य-जीवन संतुलन 
+
+RAW: fo"k; ij ,d O;k[;ku fn;kA Jherh 
+OUT: विषय पर एक व्याख्यान दिया। श्रीमती 
+
+RAW: ladjh us gekjs nSfud thou esa] fo'ks"k 
+OUT: संकरी ने हमारे दैनिक जीवन में, विशेष 
+
+RAW: :i ls dkedkth efgykvksa ds fy,] 
+OUT: रूप से कामकाजी महिलाओं के लिए, 
+
+RAW: csgrj mRiknu vkSj csgrj LokLF; ds 
+OUT: बेहतर उत्पादन और बेहतर स्वास्थ्य के 
+
+RAW: fy, dk;Z&thou larqyu ds egRo 
+OUT: लिए कार्य-जीवन संतुलन के महत्व 
+
+RAW: ij /;ku dsafær fd;kA dk;Z&thou 
+OUT: पर ध्यान केंद्रित किया। कार्य-जीवन 
+
+RAW: larqyu thou dh xq.koÙkk dks Hkh c<+krk 
+OUT: संतुलन जीवन की गुणवत्ता को भी बढ़ाता 
+
+RAW: gSA mUgksaus 8] 8] 8 dh vo/kkj.kk dks 
+OUT: है। उन्होंने ८, ८, ८ की अवधारणा को 
+
+RAW: le>k;k] ftlesa 8 ?kaVs dke ds fy,] 
+OUT: समझाया, जिसमें ८ घंटे काम के लिए, 
+
+RAW: 8 ?kaVs lksus ds fy, vkSj 8 ?kaVs ifjokj 
+OUT: ८ घंटे सोने के लिए और ८ घंटे परिवार 
+
+RAW: ,oa vU; fu;fer dke ds fy, gksrs 
+OUT: एवं अन्य नियमित काम के लिए होते 
+
+RAW: gSaA vkbZlhlh] ,l,Qlh txnyiqj dh 
+OUT: हैं। आईसीसी, एसएफसी जगदलपुर की 
+
+RAW: ,uthvks lnL; Jherh panu ckyk 
+OUT: एनजीओ सदस्य श्रीमती चंदन बाला 
+
+RAW: eksnh us efgyk l'kfädj.k fo"k; ij 
+OUT: मोदी ने महिला सशक्तिकरण विषय पर 
+
+RAW: ,d O;k[;ku fn;kA Jh f[kykou flag] 
+OUT: एक व्याख्यान दिया। श्री खिलावन सिंह, 
+
+RAW: oSKkfud ^bZ^ ,oa vkbZlhlh ds lnL; 
+OUT: वैज्ञानिक 'ई' एवं आईसीसी के सदस्य 
+
+RAW: us vkbZlhlh dh dk;Zç.kkyh ds ckjs esa 
+OUT: ने आईसीसी की कार्यप्रणाली के बारे में 
+
+RAW: crk;k rFkk M‚ ,e oh ,y jes'k] mRd`"V 
+OUT: बताया तथा डॉ एम वी एल रमेश, उत्कृष्ट 
+
+RAW: oSKkfud ,oa egkçca/kd] ,l,Qlh 
+OUT: वैज्ञानिक एवं महाप्रबंधक, एसएफसी 
+
+RAW: dk lans'k lk>k fd;k fd ,l,Qlh 
+OUT: का संदेश साझा किया कि एसएफसी 
+
+RAW: txnyiqj ,d lqjf{kr vkSj LoLFk dk;Z 
+OUT: जगदलपुर एक सुरक्षित और स्वस्थ कार्य 
+
+RAW: okrkoj.k çnku djus ds fy, çfrc) 
+OUT: वातावरण प्रदान करने के लिए प्रतिबद्ध 
+
+RAW: gSA laxBu ds ikl f'kdk;r çkIr djus 
+OUT: है। संगठन के पास शिकायत प्राप्त करने 
+
+RAW: vkSj mldk lek/kku djus ds fy, 
+OUT: और उसका समाधान करने के लिए 
+
+RAW: ,d lqLFkkfir <k¡pk gS] tks vkbZlhlh 
+OUT: एक सुस्थापित ढाँचा है, जो आईसीसी 
+
+RAW: ds fo'ks"kkf/kdkj ds varxZr vkrk gSA 
+OUT: के विशेषाधिकार के अंतर्गत आता है। 
+
+RAW: vkbZlhlh ,l,Qlh] txnyiqj dh 
+OUT: आईसीसी एसएफसी, जगदलपुर की 
+
+RAW: la;kstd Jherh 'osrk eaMkoh us /kU;okn 
+OUT: संयोजक श्रीमती श्वेता मंडावी ने धन्यवाद 
+
+RAW: Kkiu fd;kA
+OUT: ज्ञापन किया।
+

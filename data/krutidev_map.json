@@ -113,6 +113,11 @@
         "note": "dha+halant+ya cluster (ध्य). VERIFIED from ek/;e=माध्यम (p8: e=म, k=ā, /;=ध्य, e=म → माध्यम). '/' is in artifact_k_chars but artifact suppression only fires when next char is 'k'; here next is ';' so conjunct takes priority at Step 1."
       },
       {
+        "krutidev": "F;",
+        "unicode": "थ्य",
+        "note": "tha+halant+ya cluster (थ्य). VERIFIED from LokLF;=स्वास्थ्य (p19: L=स्, o=व, k=ā, L=स्, F;=थ्य → स्वास्थ्य). 'F' is in artifact_k_chars but artifact suppression fires only when next char is 'k'; here next is ';' so this conjunct fires first at Step 1. Mirrors the /;->ध्य pattern."
+      },
+      {
         "krutidev": "f.k",
         "unicode": "णि",
         "note": "i-matra on 2-char conjunct ण (f=i-matra, .k=ण). VERIFIED from 'kS{kf.kd=शैक्षणिक (p8). The i-matra while-loop only peeks single chars, so can't handle .k (2-char) as a conjunct host — this 3-char conjunct fires at Step 1 first."
@@ -191,7 +196,8 @@
 
       {"krutidev": "!", "unicode": "्", "note": "halant/virama (् U+094D). UNVERIFIED."},
       {"krutidev": "(", "unicode": "।", "note": "danda / Hindi full stop (। U+0964). VERIFIED from laf{kIr fooj.k fn;k( = ...दिया। (p13). In KrutiDev, '(' key produces the danda glyph. True opening parenthesis is ¼ (U+00BC) — see conjuncts. Note: attribution lines start with '(' in the raw; the converter post-processing restores this to '(' in output (see converter.py)."},
-      {"krutidev": "^", "unicode": "'", "note": "single quote / grade-designation wrapper. VERIFIED from vSKkfud ^,Q^ = वैज्ञानिक 'एफ' (p13: KrutiDev caret wraps grade letters like F, G). Also appears as ^^ for opening double-quote in English titles. Also appears in ^^text (two carets = opening dbl-quote; Tier-3 in English spans)."},
+      {"krutidev": "^", "unicode": "'", "note": "opening single quote / grade-designation opener. VERIFIED from oSKkfud ^,Q^ = वैज्ञानिक 'एफ' (p13), oSKkfud ^th^ = वैज्ञानिक 'जी' (p19). Also appears as ^^ for opening double-quote in English titles."},
+      {"krutidev": "*", "unicode": "'", "note": "closing single quote / grade-designation closer. VERIFIED from oSKkfud ^th* = वैज्ञानिक 'जी' (p19: some authors use * as closing delimiter instead of ^). Mirrors ^->U+2018; * maps to same U+2019 RIGHT SINGLE QUOTATION MARK."},
       {"krutidev": "~", "unicode": "्", "note": "halant/virama (् U+094D). VERIFIED from mn~?kkVu=उद्घाटन (p20: n+~+?k → द्+घ), ln~Hkko=सद्भाव (p15: n+~+H → द्+भ), iV~Vj=पट्टर (p2: V+~+V → ट्ट). Was wrongly ँ (chandrabindu); ¡ (U+00A1) is the VERIFIED chandrabindu."},
       {"krutidev": "¡", "unicode": "ँ", "note": "chandrabindu (ँ U+0901) — inverted-exclamation char used in this PDF. VERIFIED from çkS|ksfxfd;k¡=प्रौद्योगिकियाँ (p7)."},
       {"krutidev": "@", "unicode": "/", "note": "forward slash (/). VERIFIED from Lopkfyr@eSU;qvy=स्वचालित/मैन्युअल (p10), jMkj@IACSS=रडार/IACSS (p10). KrutiDev uses @ for the slash glyph. Anusvara is 'a' (lowercase, VERIFIED from gLrkarfjr=हस्तांतरित)."},
@@ -257,6 +263,7 @@
       {"krutidev": "—", "unicode": "कृ", "note": "ka+vocalic-r-matra combined glyph (कृ = क+ृ, U+2014→U+0915+U+0943). VERIFIED from mR—\"V=उत्कृष्ट (p7: R=त्, —=कृ, \"V=ष्ट → उत्कृष्ट), g ,dh—r=एकीकृत (p10)."},
       {"krutidev": "Å", "unicode": "ऊ", "note": "standalone long-U vowel (ऊ, U+00C5→U+090A). VERIFIED from ÅtkZ=ऊर्जा (p5: Å=ऊ, t=ज, k=ā, Z=reph → ऊर्जा). uPp=उच्च uses m=उ (short), Å is the long form."},
       {"krutidev": "`", "unicode": "ृ", "note": "vocalic-R matra (ृ, U+0060→U+0943). VERIFIED from Le`fr=स्मृति (p12: L=स्, e=म, `=ृ, f+r=ति → स्मृति), e`.kky=मृणाल (p2: e=म, `=ृ, .k=ण, k=ā, y=ल → मृणाल)."},
+      {"krutidev": "ì", "unicode": "ड्ड", "note": "retroflex-da+halant+retroflex-da ligature (ड्ड, U+00EC). VERIFIED from mì;u=उड्डयन (p7: m=उ, ì=ड्ड, ;=य, u=न → उड्डयन — civil aviation ministry context). Alternate encoding to mM~M;u; both appear in this PDF."},
       {"krutidev": "í", "unicode": "द्द", "note": "da+halant+da combined ligature (द्द, U+00ED). VERIFIED from mís';=उद्देश्य (p8: m=उ, í=द्द, s=े, ';=श्य → उद्देश्य). Single glyph encodes the doubled consonant cluster."},
       {"krutidev": "B", "unicode": "ठ", "note": "tha retroflex (ठ, U+0042→U+0920). VERIFIED from ikBîØe=पाठ्यक्रम (p25/p30: i=प, k=ā, B=ठ, î=्य, Ø=क्र, e=म → पाठ्यक्रम). Uppercase B distinct from lowercase b (=ब)."},
       {"krutidev": "î", "unicode": "्य", "note": "halant+ya virama-ya suffix (्य, U+00EE→U+094D+U+092F). VERIFIED from BîØe=ठ्यक्रम in ikBîØe=पाठ्यक्रम (p25). î attaches to preceding consonant via halant, like ý-type diacritic glyphs. Gives correct ठ्य, त्य etc. clusters."},
@@ -285,7 +292,6 @@
       {"krutidev": "[", "unicode": "ख्", "note": "kha+halant (ख्, half-form) when [ appears without following k. VERIFIED from eq[;=मुख्य (p10: e=म, q=ु, [=ख्, ;=य → मुख्य). Conjunct '[k'→ख fires first when k follows."},
       {"krutidev": "<", "unicode": "ढ", "note": "dha retroflex (ढ, U+003C→U+0922). VERIFIED from ih<+h=पीढ़ी (p10: i=प, h=ी, <=ढ, +=़, h=ी → पीढ़ी). Always followed by + (nukta) in this corpus."},
       {"krutidev": "+", "unicode": "़", "note": "nukta (़, U+002B→U+093C DEVANAGARI SIGN NUKTA). VERIFIED from ih<+h=पीढ़ी (p10). Combines with preceding ढ to give ढ़, or with ड to give ड़."},
-      {"krutidev": "(", "unicode": "(", "note": "opening paren — pass through (ASCII open-paren in structural context; KrutiDev open-paren is ¼)"},
       {"krutidev": ")", "unicode": "द्ध", "note": "da+halant+dha conjunct (द्ध, ASCII close-paren U+0029). VERIFIED from çfrc)rk=प्रतिबद्धता (p7: c=ब, )=द्ध, r=त), ifj'kq)rk=परिशुद्धता (p10). KrutiDev uses ) for द्ध; the actual close-paren is ½ (U+00BD)."},
       {"krutidev": "]", "unicode": ",", "note": "comma (,). VERIFIED from M‚ lehj oh dker] lfpo]=डॉ समीर वी कामत, सचिव, (p7). KrutiDev uses ] for comma; ASCII comma → ए (standalone e vowel)."},
       {"krutidev": "'", "unicode": "श", "note": "sha (श). VERIFIED from 'kkyk='ाला in çkS|ksfxfd;k¡=प्रौद्योगिकियाँ context, 'kfä=शक्ति (p7)."},
